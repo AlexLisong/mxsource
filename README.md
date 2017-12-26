@@ -1,19 +1,16 @@
-HumHub - Social Network Kit
-===========================
+1. 恢复数据库， 在 database 文件夹
+2. 拷贝 \humhub\protected\config\dynamic_dev.php， 重命名为 dynamic.php
+3. 改里面的数据库参数
+4. 本地为了快捷起见，可以开放所有权限给webserver， 比如windows IIS 可以开放所有权限，否则也可以按照：
+File Permissions
+Make the following directories/files writable by the webserver
 
-[![Build Status](https://travis-ci.org/humhub/humhub.svg?branch=master)](https://travis-ci.org/humhub/humhub)
-[![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
+/assets
+/protected/config/
+/protected/modules
+/protected/runtime
+/uploads/*
+Make the following files executable:
 
-HumHub is a feature rich and highly flexible OpenSource Social Network Kit written in PHP.
-
-It's perfect for individual:
-- Social Intranets
-- Enterprise Social Networks
-- Private Social Networks
-
-More information:
-- [Homepage & Demo](http://www.humhub.org)
-- [Documentation & Class Reference](http://docs.humhub.org)
-- [Community](http://community.humhub.com/)
-- [Licence](http://www.humhub.org/licences)
-
+/protected/yii
+/protected/yii.bat
