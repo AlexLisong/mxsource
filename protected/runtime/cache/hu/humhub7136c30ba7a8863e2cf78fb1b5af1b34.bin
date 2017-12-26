@@ -1,0 +1,23 @@
+a:2:{i:0;s:1428:"
+<a href="/index.php?r=activity%2Flink&id=4">
+    <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="5">
+        <div class="media">
+                            <!-- Show user image -->
+                <img class="media-object img-rounded pull-left" data-src="holder.js/32x32" alt="32x32"
+                     style="width: 32px; height: 32px;"
+                     src="/uploads/profile_image/87cfd26b-7b42-437b-8f08-b46561f0583b.jpg?m=1514247923">
+            
+            <!-- Show space image, if you are outside from a space -->
+                                                <div class="img-space pull-left space-profile-acronym-1 space-acronym" style=" background-color: #6fdbe8; width: 20px; height: 20px; font-size: 8.8px; padding: 3.6px 0; border-radius: 2px;">WS</div><img class="img-space pull-left space-profile-image-1 img-rounded profile-user-photo hidden" src="/static/img/default_space.jpg" alt="Welcome Space" style=" width: 20px; height: 20px">                
+            
+            <div class="media-body text-break">
+
+                <!-- Show content -->
+                <strong>Sara Schuster</strong> joined the space <strong>Welcome Space</strong><br>
+
+                <!-- show time -->
+                <span class="time" title="2017-12-26T08:25:18-08:00">Dec 26, 2017 - 8:25 AM</span>            </div>
+        </div>
+    </li>
+</a>
+";i:1;N;}
