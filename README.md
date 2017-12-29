@@ -16,3 +16,5 @@ Make the following files executable:
 
 /protected/yii
 /protected/yii.bat
+
+5. 用admin 登录后台，找到administration > Settings> General 修改 Base URL 为你本地的地址
