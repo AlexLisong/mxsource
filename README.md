@@ -1,3 +1,5 @@
+PHP 5.6
+
 1. 恢复数据库， 在 database 文件夹
 2. 拷贝 \humhub\protected\config\dynamic_dev.php， 重命名为 dynamic.php
 3. 改里面的数据库参数
