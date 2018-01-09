@@ -36,7 +36,8 @@ class TopMenu extends BaseMenu
     public function init()
     {
         parent::init();
-
+        parent::addItem(['url'=>'baidu.com','label'=>'文件','icon'=>'<i class="fa fa-tachometer"></i>']);
+        parent::addItem(['url'=>'baidu.com','label'=>'广告','icon'=>'<i class="fa fa-tachometer"></i>']);
         // Don't show top menu if guest access is disabled
         if (Yii::$app->user->isGuest && !User::isGuestAccessEnabled()) {
             $this->template = '';
