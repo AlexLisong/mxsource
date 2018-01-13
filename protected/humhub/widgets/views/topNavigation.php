@@ -3,7 +3,9 @@
 use yii\helpers\Html;
 
 ?>
-<?php foreach ($this->context->getItems() as $item) : ?>
+<?php
+//var_dump($this->context->getItems());
+foreach ($this->context->getItems() as $item) : ?>
     <li class="visible-md visible-lg <?php if ($item['isActive']): ?>active<?php endif; ?> <?php
     if (isset($item['id'])) {
         echo $item['id'];
