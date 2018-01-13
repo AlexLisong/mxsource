@@ -1,0 +1,13 @@
+{
+    "name": "songh/mxsource",
+    "authors": [
+        {
+            "name": "Alex Song",
+            "email": "songhongli@gmail.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+		"pendalf89/yii2-filemanager": "*"
+	}
+}
